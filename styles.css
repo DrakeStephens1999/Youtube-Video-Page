@@ -1,3 +1,4 @@
+/*Styles that are used throughout the page*/
 * {
     margin-left: auto;
     margin-right: auto;
@@ -5,26 +6,40 @@
     margin-bottom: auto;
     font-family: sans-serif;
 }
-table, th, td{
-    border-color: yellow;
-    border-style: solid;
-}
-
-header{
-    background-color: yellow;
-}
 .indent {
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+a{
+    color: yellow;
+}
+/*This is the css used exclusively for my header*/
+header{
+    background-color: yellow;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#k {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/**/
+#Socials{
+    background-color: red;
+    text-align: center;
+}
+/*This are the styles for the table*/
 .table{
     background-color: red;
     padding: 40px;
 }
-a{
-    color: yellow;
+table, th, td{
+    border-color: yellow;
+    border-style: solid;
 }
+/*This are the styles for the video*/
 #videos{
     background-color: red;
 }
@@ -32,17 +47,9 @@ ul{
     list-style: none;
     text-align: center;
 }
+/*These are the styles for the footer*/
 footer {
     background-color: yellow;
     padding: 30px;
     font-size: 30px;
-}
-.right{
-    text-align: right;
-    padding-left: 450px;
-}
-
-#Socials{
-    background-color: red;
-    text-align: center;
 }
