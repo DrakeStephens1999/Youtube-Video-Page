@@ -1,0 +1,48 @@
+* {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: sans-serif;
+}
+table, th, td{
+    border-color: yellow;
+    border-style: solid;
+}
+
+header{
+    background-color: yellow;
+}
+.indent {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.table{
+    background-color: red;
+    padding: 40px;
+}
+a{
+    color: yellow;
+}
+#videos{
+    background-color: red;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+footer {
+    background-color: yellow;
+    padding: 30px;
+    font-size: 30px;
+}
+.right{
+    text-align: right;
+    padding-left: 450px;
+}
+
+#Socials{
+    background-color: red;
+    text-align: center;
+}
